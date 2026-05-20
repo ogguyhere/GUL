@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --color-forest-50: #f4f6f4;
+  --color-forest-100: #e2ede5;
+  --color-forest-600: #2a4131;
+  --color-forest-800: #1B3022;
+  --color-forest-900: #1B3022;
+  --color-forest-950: #0f1c13;
+
+  --color-sage-50: #f7f9f7;
+  --color-sage-200: #bad0b4;
+  --color-sage-400: #88A070;
+  --color-sage-500: #88A070;
+  --color-sage-700: #576d44;
+
+  --color-cream-50: #ffffff;
+  --color-cream-100: #F5F5F0;
+  --color-cream-200: #eaeae0;
+
+  --color-gold-400: #f6cd55;
+  --color-gold-500: #EAB308;
+  --color-gold-600: #ca9a05;
+}
+
+body {
+  background-color: var(--color-cream-100);
+  color: var(--color-forest-950);
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbars for botanical containers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-cream-100);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-sage-200);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-sage-400);
+}

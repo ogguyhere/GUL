@@ -1,0 +1,6 @@
+{
+  "name": "GUL",
+  "description": "House gardening hub featuring customer and seller communities, store, AI botanical doctor for plant health, news, and gamified reward challenges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
